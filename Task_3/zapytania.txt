@@ -1,0 +1,41 @@
+1.
+MATCH (movie:Movie) RETURN movie
+
+2.
+MATCH (hugo: Person {name: "Hugo Weaving"})-[:ACTED_IN]->(hugoMovies) RETURN hugoMovies
+
+3.
+MATCH (hugo: Person {name: "Hugo Weaving"})-[:ACTED_IN]->(hugoMovies) <-[:DIRECTED]-(directors) RETURN directors
+
+4.
+MATCH (hugo:Person {name:"Hugo Weaving"})-[:ACTED_IN]->(m)<-[:ACTED_IN]-(colaboratioActors) RETURN colaboratioActors
+
+5.
+MATCH (matrix:Movie {title:"The Matrix"})<-[:ACTED_IN]-(actors)-[:ACTED_IN]->(movies) RETURN movies
+
+6.
+MATCH (actors:Person)-[c:ACTED_IN]->(movie) WITH actors, count(c) AS movies RETURN actors, movies
+
+7. 
+MATCH (writer:Person)-[:WROTE]->(movie:Movie) WITH writer, movie MATCH (writer)-[:DIRECTED]->(movie) RETURN writer,movie
+
+8.
+MATCH (hugo: Person {name: "Hugo Weaving"})-[:ACTED_IN]->(movie)<-[:ACTED_IN]-(keanu: Person {name: "Keanu Reeves"}) RETURN movie
+
+9.
+CREATE (m:Movie {released: 2011, tagline: "Steve Rogers, a rejected military soldier, transforms into Captain America after taking a dose of a Super-Soldier serum. But being Captain America comes at a price as he attempts to take down a war monger and a terrorist organization.", title: "Captain America: The First Avenger"})
+CREATE (chris:Person {name: "Chris Evans", born: 1981 })
+CREATE (haley:Person {name: "Hayley Atwell", born: 1982 })
+CREATE (joe:Person {name: "Joe Johnston", born: 1950 })
+CREATE (christopher:Person {name: "Christopher Markus", born: 1970 })
+CREATE (stephen:Person {name: "Stephen McFeely", born: 1969 })
+
+CREATE
+(chris)-[:ACTED_IN {roles:['Captain America']}]->(m),
+(haley)-[:ACTED_IN {roles:['Peggy Carter']}]->(m),
+(joe)-[:DIRECTED]->(m),
+(stephen)-[:WROTE]->(m),
+(christopher)-[:WROTE]->(m)
+
+MATCH (people:Person)-[relatedTo]-(:Movie {title: "Captain America: The First Avenger"}) RETURN people.name, Type(relatedTo), relatedTo
+MATCH (mv:Movie {title: "Captain America: The First Avenger"}) RETURN mv
