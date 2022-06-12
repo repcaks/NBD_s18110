@@ -1,0 +1,371 @@
+﻿[
+  {
+    "p": {
+"start": {
+"identity": 361,
+"labels": [
+          "town"
+        ],
+"properties": {
+"name": "Darjeeling"
+        }
+      },
+"end": {
+"identity": 363,
+"labels": [
+          "peak"
+        ],
+"properties": {
+"altitude": "12400 ft",
+"name": "Sandakphu"
+        }
+      },
+"segments": [
+        {
+          "start": {
+"identity": 361,
+"labels": [
+              "town"
+            ],
+"properties": {
+"name": "Darjeeling"
+            }
+          },
+          "relationship": {
+"identity": 519,
+"start": 361,
+"end": 360,
+"type": "road",
+"properties": {
+"distance": 15,
+"name": "Darjeeling-Rimbik",
+"winter": "true",
+"summer": "true"
+            }
+          },
+          "end": {
+"identity": 360,
+"labels": [
+              "town"
+            ],
+"properties": {
+"name": "Rimbik"
+            }
+          }
+        },
+        {
+          "start": {
+"identity": 360,
+"labels": [
+              "town"
+            ],
+"properties": {
+"name": "Rimbik"
+            }
+          },
+          "relationship": {
+"identity": 521,
+"start": 360,
+"end": 362,
+"type": "trek",
+"properties": {
+"distance": 18,
+"name": "Rimbik-BhikeBhanja",
+"winter": "true",
+"summer": "true"
+            }
+          },
+          "end": {
+"identity": 362,
+"labels": [
+              "village"
+            ],
+"properties": {
+"name": "BhikeBhanja"
+            }
+          }
+        },
+        {
+          "start": {
+"identity": 362,
+"labels": [
+              "village"
+            ],
+"properties": {
+"name": "BhikeBhanja"
+            }
+          },
+          "relationship": {
+"identity": 522,
+"start": 362,
+"end": 363,
+"type": "trek",
+"properties": {
+"distance": 4,
+"name": "BhikeBhanja-Sandakphu",
+"winter": "true",
+"summer": "true"
+            }
+          },
+          "end": {
+"identity": 363,
+"labels": [
+              "peak"
+            ],
+"properties": {
+"altitude": "12400 ft",
+"name": "Sandakphu"
+            }
+          }
+        }
+      ],
+"length": 3.0
+    }
+  },
+  {
+    "p": {
+"start": {
+"identity": 361,
+"labels": [
+          "town"
+        ],
+"properties": {
+"name": "Darjeeling"
+        }
+      },
+"end": {
+"identity": 363,
+"labels": [
+          "peak"
+        ],
+"properties": {
+"altitude": "12400 ft",
+"name": "Sandakphu"
+        }
+      },
+"segments": [
+        {
+          "start": {
+"identity": 361,
+"labels": [
+              "town"
+            ],
+"properties": {
+"name": "Darjeeling"
+            }
+          },
+          "relationship": {
+"identity": 518,
+"start": 361,
+"end": 360,
+"type": "PublicTransport",
+"properties": {
+"distance": 15,
+"name": "Darjeeling-Rimbik",
+"winter": "true",
+"summer": "true"
+            }
+          },
+          "end": {
+"identity": 360,
+"labels": [
+              "town"
+            ],
+"properties": {
+"name": "Rimbik"
+            }
+          }
+        },
+        {
+          "start": {
+"identity": 360,
+"labels": [
+              "town"
+            ],
+"properties": {
+"name": "Rimbik"
+            }
+          },
+          "relationship": {
+"identity": 521,
+"start": 360,
+"end": 362,
+"type": "trek",
+"properties": {
+"distance": 18,
+"name": "Rimbik-BhikeBhanja",
+"winter": "true",
+"summer": "true"
+            }
+          },
+          "end": {
+"identity": 362,
+"labels": [
+              "village"
+            ],
+"properties": {
+"name": "BhikeBhanja"
+            }
+          }
+        },
+        {
+          "start": {
+"identity": 362,
+"labels": [
+              "village"
+            ],
+"properties": {
+"name": "BhikeBhanja"
+            }
+          },
+          "relationship": {
+"identity": 522,
+"start": 362,
+"end": 363,
+"type": "trek",
+"properties": {
+"distance": 4,
+"name": "BhikeBhanja-Sandakphu",
+"winter": "true",
+"summer": "true"
+            }
+          },
+          "end": {
+"identity": 363,
+"labels": [
+              "peak"
+            ],
+"properties": {
+"altitude": "12400 ft",
+"name": "Sandakphu"
+            }
+          }
+        }
+      ],
+"length": 3.0
+    }
+  },
+  {
+    "p": {
+"start": {
+"identity": 361,
+"labels": [
+          "town"
+        ],
+"properties": {
+"name": "Darjeeling"
+        }
+      },
+"end": {
+"identity": 363,
+"labels": [
+          "peak"
+        ],
+"properties": {
+"altitude": "12400 ft",
+"name": "Sandakphu"
+        }
+      },
+"segments": [
+        {
+          "start": {
+"identity": 361,
+"labels": [
+              "town"
+            ],
+"properties": {
+"name": "Darjeeling"
+            }
+          },
+          "relationship": {
+"identity": 520,
+"start": 361,
+"end": 360,
+"type": "trek",
+"properties": {
+"distance": 15,
+"name": "Darjeeling-Rimbik",
+"winter": "true",
+"summer": "true"
+            }
+          },
+          "end": {
+"identity": 360,
+"labels": [
+              "town"
+            ],
+"properties": {
+"name": "Rimbik"
+            }
+          }
+        },
+        {
+          "start": {
+"identity": 360,
+"labels": [
+              "town"
+            ],
+"properties": {
+"name": "Rimbik"
+            }
+          },
+          "relationship": {
+"identity": 521,
+"start": 360,
+"end": 362,
+"type": "trek",
+"properties": {
+"distance": 18,
+"name": "Rimbik-BhikeBhanja",
+"winter": "true",
+"summer": "true"
+            }
+          },
+          "end": {
+"identity": 362,
+"labels": [
+              "village"
+            ],
+"properties": {
+"name": "BhikeBhanja"
+            }
+          }
+        },
+        {
+          "start": {
+"identity": 362,
+"labels": [
+              "village"
+            ],
+"properties": {
+"name": "BhikeBhanja"
+            }
+          },
+          "relationship": {
+"identity": 522,
+"start": 362,
+"end": 363,
+"type": "trek",
+"properties": {
+"distance": 4,
+"name": "BhikeBhanja-Sandakphu",
+"winter": "true",
+"summer": "true"
+            }
+          },
+          "end": {
+"identity": 363,
+"labels": [
+              "peak"
+            ],
+"properties": {
+"altitude": "12400 ft",
+"name": "Sandakphu"
+            }
+          }
+        }
+      ],
+"length": 3.0
+    }
+  }
+]

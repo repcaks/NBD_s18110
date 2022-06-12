@@ -1,0 +1,602 @@
+﻿[
+  {
+    "a": {
+"identity": 373,
+"labels": [
+        "Airport"
+      ],
+"properties": {
+"name": "SAT"
+      }
+    },
+    "flights": 1
+  },
+  {
+    "a": {
+"identity": 376,
+"labels": [
+        "Airport"
+      ],
+"properties": {
+"name": "FLL"
+      }
+    },
+    "flights": 1
+  },
+  {
+    "a": {
+"identity": 379,
+"labels": [
+        "Airport"
+      ],
+"properties": {
+"name": "KOA"
+      }
+    },
+    "flights": 1
+  },
+  {
+    "a": {
+"identity": 383,
+"labels": [
+        "Airport"
+      ],
+"properties": {
+"name": "SMF"
+      }
+    },
+    "flights": 1
+  },
+  {
+    "a": {
+"identity": 384,
+"labels": [
+        "Airport"
+      ],
+"properties": {
+"name": "RIC"
+      }
+    },
+    "flights": 1
+  },
+  {
+    "a": {
+"identity": 385,
+"labels": [
+        "Airport"
+      ],
+"properties": {
+"name": "IND"
+      }
+    },
+    "flights": 1
+  },
+  {
+    "a": {
+"identity": 390,
+"labels": [
+        "Airport"
+      ],
+"properties": {
+"name": "MCI"
+      }
+    },
+    "flights": 1
+  },
+  {
+    "a": {
+"identity": 391,
+"labels": [
+        "Airport"
+      ],
+"properties": {
+"name": "MSN"
+      }
+    },
+    "flights": 1
+  },
+  {
+    "a": {
+"identity": 400,
+"labels": [
+        "Airport"
+      ],
+"properties": {
+"name": "BIL"
+      }
+    },
+    "flights": 1
+  },
+  {
+    "a": {
+"identity": 402,
+"labels": [
+        "Airport"
+      ],
+"properties": {
+"name": "ROC"
+      }
+    },
+    "flights": 1
+  },
+  {
+    "a": {
+"identity": 403,
+"labels": [
+        "Airport"
+      ],
+"properties": {
+"name": "CLT"
+      }
+    },
+    "flights": 1
+  },
+  {
+    "a": {
+"identity": 404,
+"labels": [
+        "Airport"
+      ],
+"properties": {
+"name": "DCA"
+      }
+    },
+    "flights": 1
+  },
+  {
+    "a": {
+"identity": 408,
+"labels": [
+        "Airport"
+      ],
+"properties": {
+"name": "PBI"
+      }
+    },
+    "flights": 1
+  },
+  {
+    "a": {
+"identity": 409,
+"labels": [
+        "Airport"
+      ],
+"properties": {
+"name": "MIA"
+      }
+    },
+    "flights": 1
+  },
+  {
+    "a": {
+"identity": 415,
+"labels": [
+        "Airport"
+      ],
+"properties": {
+"name": "MOB"
+      }
+    },
+    "flights": 1
+  },
+  {
+    "a": {
+"identity": 392,
+"labels": [
+        "Airport"
+      ],
+"properties": {
+"name": "SNA"
+      }
+    },
+    "flights": 2
+  },
+  {
+    "a": {
+"identity": 395,
+"labels": [
+        "Airport"
+      ],
+"properties": {
+"name": "LAS"
+      }
+    },
+    "flights": 2
+  },
+  {
+    "a": {
+"identity": 396,
+"labels": [
+        "Airport"
+      ],
+"properties": {
+"name": "ATL"
+      }
+    },
+    "flights": 2
+  },
+  {
+    "a": {
+"identity": 397,
+"labels": [
+        "Airport"
+      ],
+"properties": {
+"name": "CMH"
+      }
+    },
+    "flights": 2
+  },
+  {
+    "a": {
+"identity": 398,
+"labels": [
+        "Airport"
+      ],
+"properties": {
+"name": "SJC"
+      }
+    },
+    "flights": 2
+  },
+  {
+    "a": {
+"identity": 401,
+"labels": [
+        "Airport"
+      ],
+"properties": {
+"name": "LGA"
+      }
+    },
+    "flights": 2
+  },
+  {
+    "a": {
+"identity": 412,
+"labels": [
+        "Airport"
+      ],
+"properties": {
+"name": "TUS"
+      }
+    },
+    "flights": 2
+  },
+  {
+    "a": {
+"identity": 399,
+"labels": [
+        "Airport"
+      ],
+"properties": {
+"name": "PHX"
+      }
+    },
+    "flights": 3
+  },
+  {
+    "a": {
+"identity": 370,
+"labels": [
+        "Airport"
+      ],
+"properties": {
+"name": "SEA"
+      }
+    },
+    "flights": 3
+  },
+  {
+    "a": {
+"identity": 416,
+"labels": [
+        "Airport"
+      ],
+"properties": {
+"name": "SBN"
+      }
+    },
+    "flights": 3
+  },
+  {
+    "a": {
+"identity": 386,
+"labels": [
+        "Airport"
+      ],
+"properties": {
+"name": "BOS"
+      }
+    },
+    "flights": 4
+  },
+  {
+    "a": {
+"identity": 388,
+"labels": [
+        "Airport"
+      ],
+"properties": {
+"name": "DFW"
+      }
+    },
+    "flights": 4
+  },
+  {
+    "a": {
+"identity": 394,
+"labels": [
+        "Airport"
+      ],
+"properties": {
+"name": "SAN"
+      }
+    },
+    "flights": 4
+  },
+  {
+    "a": {
+"identity": 405,
+"labels": [
+        "Airport"
+      ],
+"properties": {
+"name": "BHM"
+      }
+    },
+    "flights": 4
+  },
+  {
+    "a": {
+"identity": 407,
+"labels": [
+        "Airport"
+      ],
+"properties": {
+"name": "CVG"
+      }
+    },
+    "flights": 4
+  },
+  {
+    "a": {
+"identity": 410,
+"labels": [
+        "Airport"
+      ],
+"properties": {
+"name": "ABQ"
+      }
+    },
+    "flights": 4
+  },
+  {
+    "a": {
+"identity": 411,
+"labels": [
+        "Airport"
+      ],
+"properties": {
+"name": "FAT"
+      }
+    },
+    "flights": 4
+  },
+  {
+    "a": {
+"identity": 413,
+"labels": [
+        "Airport"
+      ],
+"properties": {
+"name": "DLH"
+      }
+    },
+    "flights": 4
+  },
+  {
+    "a": {
+"identity": 374,
+"labels": [
+        "Airport"
+      ],
+"properties": {
+"name": "MCO"
+      }
+    },
+    "flights": 4
+  },
+  {
+    "a": {
+"identity": 380,
+"labels": [
+        "Airport"
+      ],
+"properties": {
+"name": "PDX"
+      }
+    },
+    "flights": 4
+  },
+  {
+    "a": {
+"identity": 389,
+"labels": [
+        "Airport"
+      ],
+"properties": {
+"name": "SLC"
+      }
+    },
+    "flights": 5
+  },
+  {
+    "a": {
+"identity": 393,
+"labels": [
+        "Airport"
+      ],
+"properties": {
+"name": "HNL"
+      }
+    },
+    "flights": 5
+  },
+  {
+    "a": {
+"identity": 414,
+"labels": [
+        "Airport"
+      ],
+"properties": {
+"name": "FSD"
+      }
+    },
+    "flights": 5
+  },
+  {
+    "a": {
+"identity": 371,
+"labels": [
+        "Airport"
+      ],
+"properties": {
+"name": "EWR"
+      }
+    },
+    "flights": 7
+  },
+  {
+    "a": {
+"identity": 419,
+"labels": [
+        "Airport"
+      ],
+"properties": {
+"name": "MOT"
+      }
+    },
+    "flights": 8
+  },
+  {
+    "a": {
+"identity": 378,
+"labels": [
+        "Airport"
+      ],
+"properties": {
+"name": "MSP"
+      }
+    },
+    "flights": 9
+  },
+  {
+    "a": {
+"identity": 382,
+"labels": [
+        "Airport"
+      ],
+"properties": {
+"name": "IAD"
+      }
+    },
+    "flights": 12
+  },
+  {
+    "a": {
+"identity": 406,
+"labels": [
+        "Airport"
+      ],
+"properties": {
+"name": "BNA"
+      }
+    },
+    "flights": 12
+  },
+  {
+    "a": {
+"identity": 417,
+"labels": [
+        "Airport"
+      ],
+"properties": {
+"name": "AZO"
+      }
+    },
+    "flights": 13
+  },
+  {
+    "a": {
+"identity": 381,
+"labels": [
+        "Airport"
+      ],
+"properties": {
+"name": "SFO"
+      }
+    },
+    "flights": 14
+  },
+  {
+    "a": {
+"identity": 387,
+"labels": [
+        "Airport"
+      ],
+"properties": {
+"name": "DEN"
+      }
+    },
+    "flights": 18
+  },
+  {
+    "a": {
+"identity": 375,
+"labels": [
+        "Airport"
+      ],
+"properties": {
+"name": "LAX"
+      }
+    },
+    "flights": 22
+  },
+  {
+    "a": {
+"identity": 372,
+"labels": [
+        "Airport"
+      ],
+"properties": {
+"name": "IAH"
+      }
+    },
+    "flights": 23
+  },
+  {
+    "a": {
+"identity": 418,
+"labels": [
+        "Airport"
+      ],
+"properties": {
+"name": "DTW"
+      }
+    },
+    "flights": 25
+  },
+  {
+    "a": {
+"identity": 377,
+"labels": [
+        "Airport"
+      ],
+"properties": {
+"name": "ORD"
+      }
+    },
+    "flights": 48
+  }
+]

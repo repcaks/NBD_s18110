@@ -1,0 +1,33 @@
+1)
+curl -i -XPUT -H "Content-Type: application/json" -d '{"type": "dog", "name": "Layla", "age": 5, "hasOwner": true}' http://localhost:8098/buckets/s18110/keys/layla
+curl -i -XPUT -H "Content-Type: application/json" -d '{"type": "cat", "name": "Pele", "age": 9, "hasOwner": false}' http://localhost:8098/buckets/s18110/keys/pele
+curl -i -XPUT -H "Content-Type: application/json" -d '{"type": "elefant", "name": "Jasper", "age": 24, "hasOwner": false}' http://localhost:8098/buckets/s18110/keys/jasper
+curl -i -XPUT -H "Content-Type: application/json" -d '{"type": "moose", "name":"Iggy", "age" : 11, "hasOwner": true}' http://localhost:8098/buckets/s18110/keys/iggy
+curl -i -XPUT -H "Content-Type: application/json" -d '{"type": "fox", "name": "Pablo", "age": 3, "hasOwner": false}' http://localhost:8098/buckets/s18110/keys/pablo
+
+2)
+curl -i -XGET  http://localhost:8098/buckets/s18110/keys/layla
+
+3)
+curl -i -XPUT -H "Content-Type: application/json" -d '{"type": "dog", "name": "Layla", "age": 5, "hasOwner": true, "isVaccinated": true}' http://localhost:8098/buckets/s18110/keys/layla
+
+4)
+curl -i -XPUT -H "Content-Type: application/json" -d '{"type": "fox", "name": "Pablo", "age": 3}' http://localhost:8098/buckets/s18110/keys/pablo
+
+5)
+curl -i -XPUT -H "Content-Type: application/json" -d '{"type": "moose", "name": "Iggy", "age": 15, "hasOwner": true}' http://localhost:8098/buckets/s18110/keys/iggy
+
+6)
+curl -i -XDELETE http://localhost:8098/buckets/s18110/keys/pablo
+
+7)
+curl -i -XGET  http://localhost:8098/buckets/s18110/keys/nan
+
+8)
+curl -i -XPOST -H "Content-Type: application/json" -d '{"isBeauty": true}' http://localhost:8098/buckets/s18110/keys
+
+9)
+curl -i -XGET  http://localhost:8098/buckets/s18110/keys/I0I9QvveNqd4TwPbHDFUoMndL9Q
+
+10)
+curl -i -XDELETE http://localhost:8098/buckets/s18110/keys/I0I9QvveNqd4TwPbHDFUoMndL9Q

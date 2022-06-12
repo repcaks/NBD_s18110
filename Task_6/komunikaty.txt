@@ -1,0 +1,6 @@
+key: 18110 stored succesfully
+{"type": "dog", "name": "layla", "id": "18110", "age": "3"}
+key: 18110 updated succesfully
+{"type": "dog", "name": "layla", "id": "18110", "age": "10"}
+key: 18110 deleted succesfully
+key: 18110 not found in bucket: s18110
